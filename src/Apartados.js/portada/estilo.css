@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Nunito+Sans:ital,opsz,wght@0,6..12,400;1,6..12,300;1,6..12,400&family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+body{
+    background: linear-gradient(to top, transparent,rgba(239,46,28,.5)), url(Vecindario1\ \(1\).jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .contenedor{
+    max-width: 1000px;
+    background-color: rgba(0,0,0,.7);
+    border-radius: 30px;
+    padding: 50px;
+    color: #fff;
+  }
+
+ .contenedor header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contenedor header h1 {
+    margin: 0;
+}
+
+.contenedor header nav {
+    display: flex;
+}
+
+.contenedor header nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.contenedor header nav ul li {
+    margin-left: 30px; 
+}
+
+.contenedor header nav ul li a{
+  text-decoration:none ;
+  color: #fff;
+  line-height: 33px;
+  font-size: 14px;
+  padding: 5px;
+  transition: .5s;
+  border-radius: 2px;
+}
+
+.contenedor header nav ul li a:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+.contenedor header .busqueda{
+  float: right;
+}
+
+
+.contenedor .contenido .right .contenedor-fotos img {
+    width: px; 
+    
+  }
